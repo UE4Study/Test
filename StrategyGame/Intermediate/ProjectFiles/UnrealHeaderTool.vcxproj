@@ -1,0 +1,382 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup Label="ProjectConfigurations">
+		<ProjectConfiguration Include="Debug_Program|Win32">
+			<Configuration>Debug_Program</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Debug_Program|x64">
+			<Configuration>Debug_Program</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Mac_Debug_Program|Win32">
+			<Configuration>Mac_Debug_Program</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Mac_Debug_Program|x64">
+			<Configuration>Mac_Debug_Program</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="HTML5_Debug_Program|Win32">
+			<Configuration>HTML5_Debug_Program</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="HTML5_Debug_Program|x64">
+			<Configuration>HTML5_Debug_Program</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Development_Program|Win32">
+			<Configuration>Development_Program</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Development_Program|x64">
+			<Configuration>Development_Program</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Mac_Development_Program|Win32">
+			<Configuration>Mac_Development_Program</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Mac_Development_Program|x64">
+			<Configuration>Mac_Development_Program</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="HTML5_Development_Program|Win32">
+			<Configuration>HTML5_Development_Program</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="HTML5_Development_Program|x64">
+			<Configuration>HTML5_Development_Program</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+	</ItemGroup>
+	<PropertyGroup Label="Globals">
+		<ProjectGuid>{111FB445-C220-47E4-9A68-D9558D5EBA8E}</ProjectGuid>
+		<Keyword>MakeFileProj</Keyword>
+		<RootNamespace>UnrealHeaderTool</RootNamespace>
+       <PlatformToolset>v140</PlatformToolset>
+       <MinimumVisualStudioVersion>14.0</MinimumVisualStudioVersion>
+       <TargetRuntime>Native</TargetRuntime>
+	</PropertyGroup>
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v140</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v140</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Program|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v140</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Program|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v140</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Debug_Program|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v140</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Debug_Program|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v140</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v140</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v140</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Program|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v140</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Program|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v140</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Development_Program|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v140</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Development_Program|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v140</PlatformToolset>
+	</PropertyGroup>
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+	<ImportGroup Label="ExtensionSettings" />
+	<PropertyGroup Label="UserMacros" />
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>C:\Users\user\Desktop\거위\Test\UnrealEngine-release\Engine\Build\BatchFiles\Build.bat UnrealHeaderTool Win32 Debug -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Users\user\Desktop\거위\Test\UnrealEngine-release\Engine\Build\BatchFiles\Rebuild.bat UnrealHeaderTool Win32 Debug -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Users\user\Desktop\거위\Test\UnrealEngine-release\Engine\Build\BatchFiles\Clean.bat UnrealHeaderTool Win32 Debug -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>C:\Users\user\Desktop\거위\Test\UnrealEngine-release\Engine\Binaries\Win32\UnrealHeaderTool-Win32-Debug.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>C:\Users\user\Desktop\거위\Test\UnrealEngine-release\Engine\Build\BatchFiles\Build.bat UnrealHeaderTool Win64 Debug -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Users\user\Desktop\거위\Test\UnrealEngine-release\Engine\Build\BatchFiles\Rebuild.bat UnrealHeaderTool Win64 Debug -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Users\user\Desktop\거위\Test\UnrealEngine-release\Engine\Build\BatchFiles\Clean.bat UnrealHeaderTool Win64 Debug -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>C:\Users\user\Desktop\거위\Test\UnrealEngine-release\Engine\Binaries\Win64\UnrealHeaderTool-Win64-Debug.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Program|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Program|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>C:\Users\user\Desktop\거위\Test\UnrealEngine-release\Engine\Build\BatchFiles\Build.bat UnrealHeaderTool Mac Debug -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Users\user\Desktop\거위\Test\UnrealEngine-release\Engine\Build\BatchFiles\Rebuild.bat UnrealHeaderTool Mac Debug -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Users\user\Desktop\거위\Test\UnrealEngine-release\Engine\Build\BatchFiles\Clean.bat UnrealHeaderTool Mac Debug -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>C:\Users\user\Desktop\거위\Test\UnrealEngine-release\Engine\Binaries\Mac\UnrealHeaderTool-Mac-Debug</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Debug_Program|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Debug_Program|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>C:\Users\user\Desktop\거위\Test\UnrealEngine-release\Engine\Build\BatchFiles\Build.bat UnrealHeaderTool HTML5 Debug -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Users\user\Desktop\거위\Test\UnrealEngine-release\Engine\Build\BatchFiles\Rebuild.bat UnrealHeaderTool HTML5 Debug -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Users\user\Desktop\거위\Test\UnrealEngine-release\Engine\Build\BatchFiles\Clean.bat UnrealHeaderTool HTML5 Debug -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>C:\Users\user\Desktop\거위\Test\UnrealEngine-release\Engine\Binaries\HTML5\UnrealHeaderTool-HTML5-Debug.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>C:\Users\user\Desktop\거위\Test\UnrealEngine-release\Engine\Build\BatchFiles\Build.bat UnrealHeaderTool Win32 Development -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Users\user\Desktop\거위\Test\UnrealEngine-release\Engine\Build\BatchFiles\Rebuild.bat UnrealHeaderTool Win32 Development -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Users\user\Desktop\거위\Test\UnrealEngine-release\Engine\Build\BatchFiles\Clean.bat UnrealHeaderTool Win32 Development -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>C:\Users\user\Desktop\거위\Test\UnrealEngine-release\Engine\Binaries\Win32\UnrealHeaderTool.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>C:\Users\user\Desktop\거위\Test\UnrealEngine-release\Engine\Build\BatchFiles\Build.bat UnrealHeaderTool Win64 Development -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Users\user\Desktop\거위\Test\UnrealEngine-release\Engine\Build\BatchFiles\Rebuild.bat UnrealHeaderTool Win64 Development -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Users\user\Desktop\거위\Test\UnrealEngine-release\Engine\Build\BatchFiles\Clean.bat UnrealHeaderTool Win64 Development -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>C:\Users\user\Desktop\거위\Test\UnrealEngine-release\Engine\Binaries\Win64\UnrealHeaderTool.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Program|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Program|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>C:\Users\user\Desktop\거위\Test\UnrealEngine-release\Engine\Build\BatchFiles\Build.bat UnrealHeaderTool Mac Development -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Users\user\Desktop\거위\Test\UnrealEngine-release\Engine\Build\BatchFiles\Rebuild.bat UnrealHeaderTool Mac Development -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Users\user\Desktop\거위\Test\UnrealEngine-release\Engine\Build\BatchFiles\Clean.bat UnrealHeaderTool Mac Development -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>C:\Users\user\Desktop\거위\Test\UnrealEngine-release\Engine\Binaries\Mac\UnrealHeaderTool</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Development_Program|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Development_Program|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>C:\Users\user\Desktop\거위\Test\UnrealEngine-release\Engine\Build\BatchFiles\Build.bat UnrealHeaderTool HTML5 Development -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Users\user\Desktop\거위\Test\UnrealEngine-release\Engine\Build\BatchFiles\Rebuild.bat UnrealHeaderTool HTML5 Development -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Users\user\Desktop\거위\Test\UnrealEngine-release\Engine\Build\BatchFiles\Clean.bat UnrealHeaderTool HTML5 Development -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>C:\Users\user\Desktop\거위\Test\UnrealEngine-release\Engine\Binaries\HTML5\UnrealHeaderTool.exe</NMakeOutput>
+	</PropertyGroup>
+	<ItemGroup>
+		<None Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\UnrealHeaderTool.Target.cs" />
+		<None Include="..\..\..\UnrealEngine-release\Engine\Programs\UnrealHeaderTool\Config\DefaultEngine.ini" />
+		<None Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\UnrealHeaderTool.Build.cs" />
+		<ClCompile Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Private\BaseParser.cpp" />
+		<ClInclude Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Private\BaseParser.h" />
+		<ClCompile Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Private\ClassDeclarationMetaData.cpp" />
+		<ClInclude Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Private\ClassDeclarationMetaData.h" />
+		<ClCompile Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Private\Classes.cpp" />
+		<ClInclude Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Private\Classes.h" />
+		<ClCompile Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Private\ClassMaps.cpp" />
+		<ClInclude Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Private\ClassMaps.h" />
+		<ClCompile Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Private\CodeGenerator.cpp" />
+		<ClCompile Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Private\FileLineException.cpp" />
+		<ClInclude Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Private\FileLineException.h" />
+		<ClInclude Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Private\GeneratedCodeVersion.h" />
+		<ClCompile Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Private\HeaderParser.cpp" />
+		<ClInclude Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Private\HeaderParser.h" />
+		<ClCompile Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Private\HeaderProvider.cpp" />
+		<ClInclude Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Private\HeaderProvider.h" />
+		<ClCompile Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Private\IScriptGeneratorPluginInterface.cpp" />
+		<ClCompile Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Private\Manifest.cpp" />
+		<ClInclude Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Private\Manifest.h" />
+		<ClInclude Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Private\NativeClassExporter.h" />
+		<ClCompile Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Private\ParserClass.cpp" />
+		<ClInclude Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Private\ParserClass.h" />
+		<ClCompile Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Private\ParserHelper.cpp" />
+		<ClInclude Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Private\ParserHelper.h" />
+		<ClCompile Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Private\Scope.cpp" />
+		<ClInclude Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Private\Scope.h" />
+		<ClInclude Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Private\SimplifiedParsingClassInfo.h" />
+		<ClCompile Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Private\StringUtils.cpp" />
+		<ClInclude Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Private\StringUtils.h" />
+		<ClCompile Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Private\UnrealHeaderToolMain.cpp" />
+		<ClCompile Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Private\UnrealSourceFile.cpp" />
+		<ClInclude Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Private\UnrealSourceFile.h" />
+		<ClInclude Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Private\UnrealTypeDefinitionInfo.h" />
+		<None Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Private\Specifiers\CheckedMetadataSpecifiers.def" />
+		<ClInclude Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Private\Specifiers\CheckedMetadataSpecifiers.h" />
+		<None Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Private\Specifiers\FunctionSpecifiers.def" />
+		<ClInclude Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Private\Specifiers\FunctionSpecifiers.h" />
+		<None Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Private\Specifiers\InterfaceSpecifiers.def" />
+		<ClInclude Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Private\Specifiers\InterfaceSpecifiers.h" />
+		<ClCompile Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Private\Specifiers\SpecifierArrays.cpp" />
+		<None Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Private\Specifiers\StructSpecifiers.def" />
+		<ClInclude Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Private\Specifiers\StructSpecifiers.h" />
+		<None Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Private\Specifiers\VariableSpecifiers.def" />
+		<ClInclude Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Private\Specifiers\VariableSpecifiers.h" />
+		<ClCompile Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\ClassArchiveProxy.cpp" />
+		<ClInclude Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\ClassArchiveProxy.h" />
+		<ClCompile Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\ClassMetaDataArchiveProxy.cpp" />
+		<ClInclude Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\ClassMetaDataArchiveProxy.h" />
+		<ClCompile Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\CompilerMetadataManagerArchiveProxy.cpp" />
+		<ClInclude Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\CompilerMetadataManagerArchiveProxy.h" />
+		<ClCompile Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\EnumArchiveProxy.cpp" />
+		<ClInclude Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\EnumArchiveProxy.h" />
+		<ClCompile Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\FieldArchiveProxy.cpp" />
+		<ClInclude Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\FieldArchiveProxy.h" />
+		<ClCompile Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\FileScopeArchiveProxy.cpp" />
+		<ClInclude Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\FileScopeArchiveProxy.h" />
+		<ClCompile Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\FunctionArchiveProxy.cpp" />
+		<ClInclude Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\FunctionArchiveProxy.h" />
+		<ClCompile Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\HeaderProviderArchiveProxy.cpp" />
+		<ClInclude Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\HeaderProviderArchiveProxy.h" />
+		<ClCompile Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\ImplementedInterfaceArchiveProxy.cpp" />
+		<ClInclude Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\ImplementedInterfaceArchiveProxy.h" />
+		<ClInclude Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\MakefileHelpers.h" />
+		<ClCompile Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\MetadataArchiveProxy.cpp" />
+		<ClInclude Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\MetadataArchiveProxy.h" />
+		<ClCompile Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\MultipleInheritanceBaseClassArchiveProxy.cpp" />
+		<ClInclude Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\MultipleInheritanceBaseClassArchiveProxy.h" />
+		<ClCompile Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\NameArchiveProxy.cpp" />
+		<ClInclude Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\NameArchiveProxy.h" />
+		<ClCompile Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\ObjectBaseArchiveProxy.cpp" />
+		<ClInclude Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\ObjectBaseArchiveProxy.h" />
+		<ClCompile Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\PackageArchiveProxy.cpp" />
+		<ClInclude Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\PackageArchiveProxy.h" />
+		<ClCompile Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\PropertyArchiveProxy.cpp" />
+		<ClInclude Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\PropertyArchiveProxy.h" />
+		<ClCompile Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\PropertyBaseArchiveProxy.cpp" />
+		<ClInclude Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\PropertyBaseArchiveProxy.h" />
+		<ClCompile Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\PropertyDataArchiveProxy.cpp" />
+		<ClInclude Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\PropertyDataArchiveProxy.h" />
+		<ClCompile Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\RepRecordArchiveProxy.cpp" />
+		<ClInclude Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\RepRecordArchiveProxy.h" />
+		<ClCompile Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\ScopeArchiveProxy.cpp" />
+		<ClInclude Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\ScopeArchiveProxy.h" />
+		<ClCompile Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\ScriptStructArchiveProxy.cpp" />
+		<ClInclude Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\ScriptStructArchiveProxy.h" />
+		<ClCompile Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\StructArchiveProxy.cpp" />
+		<ClInclude Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\StructArchiveProxy.h" />
+		<ClCompile Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\StructDataArchiveProxy.cpp" />
+		<ClInclude Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\StructDataArchiveProxy.h" />
+		<ClCompile Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\StructScopeArchiveProxy.cpp" />
+		<ClInclude Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\StructScopeArchiveProxy.h" />
+		<ClCompile Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\TokenArchiveProxy.cpp" />
+		<ClInclude Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\TokenArchiveProxy.h" />
+		<ClCompile Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\TokenDataArchiveProxy.cpp" />
+		<ClInclude Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\TokenDataArchiveProxy.h" />
+		<ClCompile Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\TypeDefinitionInfoMapArchiveProxy.cpp" />
+		<ClInclude Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\TypeDefinitionInfoMapArchiveProxy.h" />
+		<ClCompile Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\UHTMakefile.cpp" />
+		<ClInclude Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\UHTMakefile.h" />
+		<ClCompile Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\UHTMakefileHeaderDescriptor.cpp" />
+		<ClInclude Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\UHTMakefileHeaderDescriptor.h" />
+		<ClCompile Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\UHTMakefileModuleDescriptor.cpp" />
+		<ClInclude Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\UHTMakefileModuleDescriptor.h" />
+		<ClCompile Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\UnrealSourceFileArchiveProxy.cpp" />
+		<ClInclude Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\UnrealSourceFileArchiveProxy.h" />
+		<ClInclude Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Public\IScriptGeneratorPluginInterface.h" />
+		<ClInclude Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Public\UnrealHeaderTool.h" />
+		<ResourceCompile Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Resources\PCLaunch.rc" />
+		<Manifest Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Resources\UHTDebugging.manifest" />
+		<ClInclude Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Resources\UHTDebugging\EnumOnlyHeader.h" />
+		<ClInclude Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Resources\UHTDebugging\StructOnlyHeader.h" />
+		<ClInclude Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Resources\UHTDebugging\TestDeprecatedObject.h" />
+		<ClInclude Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Resources\UHTDebugging\TestInterface.h" />
+		<ClInclude Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Resources\UHTDebugging\TestInterfaceObject.h" />
+		<ClInclude Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Resources\UHTDebugging\TestObject.h" />
+	</ItemGroup>
+	<PropertyGroup>
+		<NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions);HACK_HEADER_GENERATOR=1;USE_LOCALIZED_PACKAGE_CACHE=0;IS_PROGRAM=1;WITH_DEV_AUTOMATION_TESTS=1;WITH_PERF_AUTOMATION_TESTS=1;UNICODE;_UNICODE;__UNREAL__;IS_MONOLITHIC=0;WITH_ENGINE=0;WITH_UNREAL_DEVELOPER_TOOLS=0;WITH_COREUOBJECT=1;USE_STATS_WITHOUT_ENGINE=1;WITH_PLUGIN_SUPPORT=1;WITH_PERFCOUNTERS=1;USE_LOGGING_IN_SHIPPING=1;WITH_LOGGING_TO_MEMORY=0;USE_CHECKS_IN_SHIPPING=1;UE_BUILD_MINIMAL=1;WITH_EDITOR=0;WITH_SERVER_CODE=1;UBT_COMPILED_PLATFORM=Win64;UBT_COMPILED_TARGET=Program;WIN32=1;_WIN32_WINNT=0x0601;WINVER=0x0601;PLATFORM_WINDOWS=1;NDEBUG=1;UE_BUILD_DEVELOPMENT=1;USE_NEW_ASYNC_IO=0;ORIGINAL_FILE_NAME="UnrealHeaderTool.exe";UNREALHEADERTOOL_API=;UE_ENABLE_ICU=0;WITH_DIRECTXMATH=0;CORE_API=;COREUOBJECT_API=;JSON_API=;PROJECTS_API=</NMakePreprocessorDefinitions>
+		<NMakeIncludeSearchPath>$(NMakeIncludeSearchPath);C:\Users\user\Desktop\거위\Test\UnrealEngine-release\Engine\Source;C:\Users\user\Desktop\거위\Test\UnrealEngine-release\Engine\Source\Runtime\Launch\Private;C:\Users\user\Desktop\거위\Test\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Private;C:\Users\user\Desktop\거위\Test\UnrealEngine-release\Engine\Source\Runtime\Launch\Public;C:\Users\user\Desktop\거위\Test\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool\Public;C:\Users\user\Desktop\거위\Test\UnrealEngine-release\Engine\Intermediate\Build\Win64\UnrealHeaderTool\Inc\UnrealHeaderTool;C:\Users\user\Desktop\거위\Test\UnrealEngine-release\Engine\Source\Programs\UnrealHeaderTool;C:\Users\user\Desktop\거위\Test\UnrealEngine-release\Engine\Source\Runtime\Core\Public;C:\Users\user\Desktop\거위\Test\UnrealEngine-release\Engine\Source\Runtime\Core\Public\Internationalization;C:\Users\user\Desktop\거위\Test\UnrealEngine-release\Engine\Source\Runtime\Core\Public\Async;C:\Users\user\Desktop\거위\Test\UnrealEngine-release\Engine\Source\Runtime\Core\Public\Concurrency;C:\Users\user\Desktop\거위\Test\UnrealEngine-release\Engine\Source\Runtime\Core\Public\Containers;C:\Users\user\Desktop\거위\Test\UnrealEngine-release\Engine\Source\Runtime\Core\Public\Delegates;C:\Users\user\Desktop\거위\Test\UnrealEngine-release\Engine\Source\Runtime\Core\Public\GenericPlatform;C:\Users\user\Desktop\거위\Test\UnrealEngine-release\Engine\Source\Runtime\Core\Public\HAL;C:\Users\user\Desktop\거위\Test\UnrealEngine-release\Engine\Source\Runtime\Core\Public\Logging;C:\Users\user\Desktop\거위\Test\UnrealEngine-release\Engine\Source\Runtime\Core\Public\Math;C:\Users\user\Desktop\거위\Test\UnrealEngine-release\Engine\Source\Runtime\Core\Public\Misc;C:\Users\user\Desktop\거위\Test\UnrealEngine-release\Engine\Source\Runtime\Core\Public\Modules;C:\Users\user\Desktop\거위\Test\UnrealEngine-release\Engine\Source\Runtime\Core\Public\Modules\Boilerplate;C:\Users\user\Desktop\거위\Test\UnrealEngine-release\Engine\Source\Runtime\Core\Public\ProfilingDebugging;C:\Users\user\Desktop\거위\Test\UnrealEngine-release\Engine\Source\Runtime\Core\Public\Serialization;C:\Users\user\Desktop\거위\Test\UnrealEngine-release\Engine\Source\Runtime\Core\Public\Serialization\Csv;C:\Users\user\Desktop\거위\Test\UnrealEngine-release\Engine\Source\Runtime\Core\Public\Stats;C:\Users\user\Desktop\거위\Test\UnrealEngine-release\Engine\Source\Runtime\Core\Public\Templates;C:\Users\user\Desktop\거위\Test\UnrealEngine-release\Engine\Source\Runtime\Core\Public\UObject;C:\Users\user\Desktop\거위\Test\UnrealEngine-release\Engine\Source\Runtime\Core\Public\Windows;C:\Users\user\Desktop\거위\Test\UnrealEngine-release\Engine\Source\Runtime\Core;C:\Users\user\Desktop\거위\Test\UnrealEngine-release\Engine\Source\Runtime\CoreUObject\Public;C:\Users\user\Desktop\거위\Test\UnrealEngine-release\Engine\Source\Runtime\CoreUObject\Public\Blueprint;C:\Users\user\Desktop\거위\Test\UnrealEngine-release\Engine\Source\Runtime\CoreUObject\Public\Internationalization;C:\Users\user\Desktop\거위\Test\UnrealEngine-release\Engine\Source\Runtime\CoreUObject\Public\Misc;C:\Users\user\Desktop\거위\Test\UnrealEngine-release\Engine\Source\Runtime\CoreUObject\Public\Serialization;C:\Users\user\Desktop\거위\Test\UnrealEngine-release\Engine\Source\Runtime\CoreUObject\Public\Templates;C:\Users\user\Desktop\거위\Test\UnrealEngine-release\Engine\Source\Runtime\CoreUObject\Public\UObject;C:\Users\user\Desktop\거위\Test\UnrealEngine-release\Engine\Intermediate\Build\Win64\UnrealHeaderTool\Inc\CoreUObject;C:\Users\user\Desktop\거위\Test\UnrealEngine-release\Engine\Source\Runtime\CoreUObject;C:\Users\user\Desktop\거위\Test\UnrealEngine-release\Engine\Source\Runtime\Json\Public;C:\Users\user\Desktop\거위\Test\UnrealEngine-release\Engine\Source\Runtime\Json\Public\Dom;C:\Users\user\Desktop\거위\Test\UnrealEngine-release\Engine\Source\Runtime\Json\Public\Policies;C:\Users\user\Desktop\거위\Test\UnrealEngine-release\Engine\Source\Runtime\Json\Public\Serialization;C:\Users\user\Desktop\거위\Test\UnrealEngine-release\Engine\Intermediate\Build\Win64\UnrealHeaderTool\Inc\Json;C:\Users\user\Desktop\거위\Test\UnrealEngine-release\Engine\Source\Runtime\Json;C:\Users\user\Desktop\거위\Test\UnrealEngine-release\Engine\Source\Runtime\Projects\Public;C:\Users\user\Desktop\거위\Test\UnrealEngine-release\Engine\Source\Runtime\Projects\Public\Interfaces;C:\Users\user\Desktop\거위\Test\UnrealEngine-release\Engine\Intermediate\Build\Win64\UnrealHeaderTool\Inc\Projects;C:\Users\user\Desktop\거위\Test\UnrealEngine-release\Engine\Source\Runtime\Projects;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\ATLMFC\INCLUDE;C:\Program Files (x86)\Windows Kits\10\include\10.0.10240.0\ucrt;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6\include\um;C:\Program Files (x86)\Windows Kits\8.1\include\shared;C:\Program Files (x86)\Windows Kits\8.1\include\um;C:\Program Files (x86)\Windows Kits\8.1\include\winrt;;</NMakeIncludeSearchPath>
+		<NMakeForcedIncludes>$(NMakeForcedIncludes)</NMakeForcedIncludes>
+		<NMakeAssemblySearchPath>$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
+		<NMakeForcedUsingAssemblies>$(NMakeForcedUsingAssemblies)</NMakeForcedUsingAssemblies>
+	</PropertyGroup>
+	<ItemDefinitionGroup>
+	</ItemDefinitionGroup>
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+	<ImportGroup Label="ExtensionTargets">
+	</ImportGroup>
+</Project>

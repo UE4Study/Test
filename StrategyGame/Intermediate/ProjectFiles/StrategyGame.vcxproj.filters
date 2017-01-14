@@ -1,0 +1,385 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\StrategyGame.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{7D524C3F-7076-4658-980A-F764F26DDDB4}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\StrategyGame.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\StrategyGameEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{C8F24DE2-C613-4759-B3D6-036F64545E18}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultDeviceProfiles.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Config\Android">
+			<UniqueIdentifier>{11B407F5-8F6B-4E8F-81BB-D94357F7C1FA}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\Android\AndroidEngine.ini">
+			<Filter>Config\Android</Filter>
+		</None >
+		<Filter Include="Source\StrategyGame">
+			<UniqueIdentifier>{BF41EF90-97C9-43EE-AFF3-47FEAA29EE86}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\StrategyGame\StrategyGame.Build.cs">
+			<Filter>Source\StrategyGame</Filter>
+		</None >
+		<Filter Include="Source\StrategyGame\Private">
+			<UniqueIdentifier>{CB1B3A8E-0460-4104-9C4A-2DA89860D580}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\StrategyGame\Private\StrategyGameBlueprintLibrary.cpp">
+			<Filter>Source\StrategyGame\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\StrategyGame\Private\StrategyGameMode.cpp">
+			<Filter>Source\StrategyGame\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\StrategyGame\Private\StrategyGameModule.cpp">
+			<Filter>Source\StrategyGame\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\StrategyGame\Private\StrategyGameState.cpp">
+			<Filter>Source\StrategyGame\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\StrategyGame\Private\StrategyHelpers.cpp">
+			<Filter>Source\StrategyGame\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\StrategyGame\Private\StrategyInterfaces.cpp">
+			<Filter>Source\StrategyGame\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\StrategyGame\Private\StrategyMiniMapCapture.cpp">
+			<Filter>Source\StrategyGame\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\StrategyGame\Private\StrategyProjectile.cpp">
+			<Filter>Source\StrategyGame\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\StrategyGame\Private\StrategyResourceNode.cpp">
+			<Filter>Source\StrategyGame\Private</Filter>
+		</ClCompile >
+		<Filter Include="Source\StrategyGame\Private\AI">
+			<UniqueIdentifier>{4B7B6E51-7C3A-4492-936C-2633559261EF}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\StrategyGame\Private\AI\StrategyAIAction.cpp">
+			<Filter>Source\StrategyGame\Private\AI</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\StrategyGame\Private\AI\StrategyAIAction_AttackTarget.cpp">
+			<Filter>Source\StrategyGame\Private\AI</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\StrategyGame\Private\AI\StrategyAIAction_MoveToBrewery.cpp">
+			<Filter>Source\StrategyGame\Private\AI</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\StrategyGame\Private\AI\StrategyAIController.cpp">
+			<Filter>Source\StrategyGame\Private\AI</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\StrategyGame\Private\AI\StrategyAIDirector.cpp">
+			<Filter>Source\StrategyGame\Private\AI</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\StrategyGame\Private\AI\StrategyAISensingComponent.cpp">
+			<Filter>Source\StrategyGame\Private\AI</Filter>
+		</ClCompile >
+		<Filter Include="Source\StrategyGame\Private\Buildings">
+			<UniqueIdentifier>{0980BD81-0A62-4F70-B0A2-84DE5F6EB973}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\StrategyGame\Private\Buildings\StrategyBuilding.cpp">
+			<Filter>Source\StrategyGame\Private\Buildings</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\StrategyGame\Private\Buildings\StrategyBuilding_Brewery.cpp">
+			<Filter>Source\StrategyGame\Private\Buildings</Filter>
+		</ClCompile >
+		<Filter Include="Source\StrategyGame\Private\Pawns">
+			<UniqueIdentifier>{7F8027D4-6BB2-4809-B287-949F7BDF772D}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\StrategyGame\Private\Pawns\StrategyAnimInstance.cpp">
+			<Filter>Source\StrategyGame\Private\Pawns</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\StrategyGame\Private\Pawns\StrategyAttachment.cpp">
+			<Filter>Source\StrategyGame\Private\Pawns</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\StrategyGame\Private\Pawns\StrategyCameraComponent.cpp">
+			<Filter>Source\StrategyGame\Private\Pawns</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\StrategyGame\Private\Pawns\StrategyChar.cpp">
+			<Filter>Source\StrategyGame\Private\Pawns</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\StrategyGame\Private\Pawns\StrategySpectatorPawn.cpp">
+			<Filter>Source\StrategyGame\Private\Pawns</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\StrategyGame\Private\Pawns\StrategySpectatorPawnMovement.cpp">
+			<Filter>Source\StrategyGame\Private\Pawns</Filter>
+		</ClCompile >
+		<Filter Include="Source\StrategyGame\Private\Player">
+			<UniqueIdentifier>{E794B1FB-583F-4E57-8DE5-36B81C7F5F36}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\StrategyGame\Private\Player\StrategyCheatManager.cpp">
+			<Filter>Source\StrategyGame\Private\Player</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\StrategyGame\Private\Player\StrategyInput.cpp">
+			<Filter>Source\StrategyGame\Private\Player</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\StrategyGame\Private\Player\StrategyPlayerController.cpp">
+			<Filter>Source\StrategyGame\Private\Player</Filter>
+		</ClCompile >
+		<Filter Include="Source\StrategyGame\Private\UI">
+			<UniqueIdentifier>{BDD9C07F-22F6-49BC-9A75-8CF0FE144080}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\StrategyGame\Private\UI\StrategyHUD.cpp">
+			<Filter>Source\StrategyGame\Private\UI</Filter>
+		</ClCompile >
+		<Filter Include="Source\StrategyGame\Private\UI\Menu">
+			<UniqueIdentifier>{0A403354-D3BC-448B-BA58-98F728AA3733}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\StrategyGame\Private\UI\Menu\SStrategyMenuItem.cpp">
+			<Filter>Source\StrategyGame\Private\UI\Menu</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\StrategyGame\Private\UI\Menu\SStrategyMenuItem.h">
+			<Filter>Source\StrategyGame\Private\UI\Menu</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\StrategyGame\Private\UI\Menu\SStrategyMenuWidget.cpp">
+			<Filter>Source\StrategyGame\Private\UI\Menu</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\StrategyGame\Private\UI\Menu\SStrategyMenuWidget.h">
+			<Filter>Source\StrategyGame\Private\UI\Menu</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\StrategyGame\Private\UI\Menu\StrategyMenuGameMode.cpp">
+			<Filter>Source\StrategyGame\Private\UI\Menu</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\StrategyGame\Private\UI\Menu\StrategyMenuHUD.cpp">
+			<Filter>Source\StrategyGame\Private\UI\Menu</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\StrategyGame\Private\UI\Menu\StrategyMenuItem.h">
+			<Filter>Source\StrategyGame\Private\UI\Menu</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\StrategyGame\Private\UI\Menu\StrategyMenuPlayerController.cpp">
+			<Filter>Source\StrategyGame\Private\UI\Menu</Filter>
+		</ClCompile >
+		<Filter Include="Source\StrategyGame\Private\UI\Style">
+			<UniqueIdentifier>{E8843E4F-8BB5-4858-90A5-06E026018DC6}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\StrategyGame\Private\UI\Style\StrategyHUDSoundsWidgetStyle.cpp">
+			<Filter>Source\StrategyGame\Private\UI\Style</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\StrategyGame\Private\UI\Style\StrategyHUDSoundsWidgetStyle.h">
+			<Filter>Source\StrategyGame\Private\UI\Style</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\StrategyGame\Private\UI\Style\StrategyHUDWidgetStyle.cpp">
+			<Filter>Source\StrategyGame\Private\UI\Style</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\StrategyGame\Private\UI\Style\StrategyHUDWidgetStyle.h">
+			<Filter>Source\StrategyGame\Private\UI\Style</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\StrategyGame\Private\UI\Style\StrategyMenuWidgetStyle.cpp">
+			<Filter>Source\StrategyGame\Private\UI\Style</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\StrategyGame\Private\UI\Style\StrategyMenuWidgetStyle.h">
+			<Filter>Source\StrategyGame\Private\UI\Style</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\StrategyGame\Private\UI\Style\StrategyStyle.cpp">
+			<Filter>Source\StrategyGame\Private\UI\Style</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\StrategyGame\Private\UI\Style\StrategyStyle.h">
+			<Filter>Source\StrategyGame\Private\UI\Style</Filter>
+		</ClInclude >
+		<Filter Include="Source\StrategyGame\Private\UI\Widgets">
+			<UniqueIdentifier>{976D0AD7-4E06-4CE2-B721-8EFBE04E2AF4}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\StrategyGame\Private\UI\Widgets\SStrategyActionGrid.cpp">
+			<Filter>Source\StrategyGame\Private\UI\Widgets</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\StrategyGame\Private\UI\Widgets\SStrategyActionGrid.h">
+			<Filter>Source\StrategyGame\Private\UI\Widgets</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\StrategyGame\Private\UI\Widgets\SStrategyButtonWidget.cpp">
+			<Filter>Source\StrategyGame\Private\UI\Widgets</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\StrategyGame\Private\UI\Widgets\SStrategyButtonWidget.h">
+			<Filter>Source\StrategyGame\Private\UI\Widgets</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\StrategyGame\Private\UI\Widgets\SStrategyMiniMapWidget.cpp">
+			<Filter>Source\StrategyGame\Private\UI\Widgets</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\StrategyGame\Private\UI\Widgets\SStrategyMiniMapWidget.h">
+			<Filter>Source\StrategyGame\Private\UI\Widgets</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\StrategyGame\Private\UI\Widgets\SStrategySlateHUDWidget.cpp">
+			<Filter>Source\StrategyGame\Private\UI\Widgets</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\StrategyGame\Private\UI\Widgets\SStrategySlateHUDWidget.h">
+			<Filter>Source\StrategyGame\Private\UI\Widgets</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\StrategyGame\Private\UI\Widgets\SStrategyTitle.cpp">
+			<Filter>Source\StrategyGame\Private\UI\Widgets</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\StrategyGame\Private\UI\Widgets\SStrategyTitle.h">
+			<Filter>Source\StrategyGame\Private\UI\Widgets</Filter>
+		</ClInclude >
+		<Filter Include="Source\StrategyGame\Public">
+			<UniqueIdentifier>{F06ABFCC-061F-4681-A99E-7497E93AD110}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Source\StrategyGame\Public\StrategyGame.h">
+			<Filter>Source\StrategyGame\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\StrategyGame\Public\StrategyGameBlueprintLibrary.h">
+			<Filter>Source\StrategyGame\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\StrategyGame\Public\StrategyGameMode.h">
+			<Filter>Source\StrategyGame\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\StrategyGame\Public\StrategyGameState.h">
+			<Filter>Source\StrategyGame\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\StrategyGame\Public\StrategyHelpers.h">
+			<Filter>Source\StrategyGame\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\StrategyGame\Public\StrategyMiniMapCapture.h">
+			<Filter>Source\StrategyGame\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\StrategyGame\Public\StrategyProjectile.h">
+			<Filter>Source\StrategyGame\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\StrategyGame\Public\StrategyResourceNode.h">
+			<Filter>Source\StrategyGame\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\StrategyGame\Public\StrategyTypes.h">
+			<Filter>Source\StrategyGame\Public</Filter>
+		</ClInclude >
+		<Filter Include="Source\StrategyGame\Public\AI">
+			<UniqueIdentifier>{F84613C5-396C-4A1E-B103-2754F57810EC}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Source\StrategyGame\Public\AI\StrategyAIAction.h">
+			<Filter>Source\StrategyGame\Public\AI</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\StrategyGame\Public\AI\StrategyAIAction_AttackTarget.h">
+			<Filter>Source\StrategyGame\Public\AI</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\StrategyGame\Public\AI\StrategyAIAction_MoveToBrewery.h">
+			<Filter>Source\StrategyGame\Public\AI</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\StrategyGame\Public\AI\StrategyAIController.h">
+			<Filter>Source\StrategyGame\Public\AI</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\StrategyGame\Public\AI\StrategyAIDirector.h">
+			<Filter>Source\StrategyGame\Public\AI</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\StrategyGame\Public\AI\StrategyAISensingComponent.h">
+			<Filter>Source\StrategyGame\Public\AI</Filter>
+		</ClInclude >
+		<Filter Include="Source\StrategyGame\Public\Buildings">
+			<UniqueIdentifier>{790747C3-4C01-47E6-A294-CA3853CA11C6}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Source\StrategyGame\Public\Buildings\StrategyBuilding.h">
+			<Filter>Source\StrategyGame\Public\Buildings</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\StrategyGame\Public\Buildings\StrategyBuilding_Brewery.h">
+			<Filter>Source\StrategyGame\Public\Buildings</Filter>
+		</ClInclude >
+		<Filter Include="Source\StrategyGame\Public\Interfaces">
+			<UniqueIdentifier>{95B115FE-5051-492A-A23D-CC89A2A0EF22}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Source\StrategyGame\Public\Interfaces\StrategyInputInterface.h">
+			<Filter>Source\StrategyGame\Public\Interfaces</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\StrategyGame\Public\Interfaces\StrategySelectionInterface.h">
+			<Filter>Source\StrategyGame\Public\Interfaces</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\StrategyGame\Public\Interfaces\StrategyTeamInterface.h">
+			<Filter>Source\StrategyGame\Public\Interfaces</Filter>
+		</ClInclude >
+		<Filter Include="Source\StrategyGame\Public\Menu">
+			<UniqueIdentifier>{7FE86120-EAF5-4C2B-A6A7-3C8BB9816421}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Source\StrategyGame\Public\Menu\StrategyMenuGameMode.h">
+			<Filter>Source\StrategyGame\Public\Menu</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\StrategyGame\Public\Menu\StrategyMenuHUD.h">
+			<Filter>Source\StrategyGame\Public\Menu</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\StrategyGame\Public\Menu\StrategyMenuPlayerController.h">
+			<Filter>Source\StrategyGame\Public\Menu</Filter>
+		</ClInclude >
+		<Filter Include="Source\StrategyGame\Public\Pawns">
+			<UniqueIdentifier>{9C2CF123-CD39-4F01-B6CD-224EF4D408A9}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Source\StrategyGame\Public\Pawns\StrategyAnimInstance.h">
+			<Filter>Source\StrategyGame\Public\Pawns</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\StrategyGame\Public\Pawns\StrategyAttachment.h">
+			<Filter>Source\StrategyGame\Public\Pawns</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\StrategyGame\Public\Pawns\StrategyCameraComponent.h">
+			<Filter>Source\StrategyGame\Public\Pawns</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\StrategyGame\Public\Pawns\StrategyChar.h">
+			<Filter>Source\StrategyGame\Public\Pawns</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\StrategyGame\Public\Pawns\StrategySpectatorPawn.h">
+			<Filter>Source\StrategyGame\Public\Pawns</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\StrategyGame\Public\Pawns\StrategySpectatorPawnMovement.h">
+			<Filter>Source\StrategyGame\Public\Pawns</Filter>
+		</ClInclude >
+		<Filter Include="Source\StrategyGame\Public\Player">
+			<UniqueIdentifier>{4F354150-F55C-427E-9855-39247BC88BE9}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Source\StrategyGame\Public\Player\StrategyCheatManager.h">
+			<Filter>Source\StrategyGame\Public\Player</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\StrategyGame\Public\Player\StrategyInput.h">
+			<Filter>Source\StrategyGame\Public\Player</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\StrategyGame\Public\Player\StrategyPlayerController.h">
+			<Filter>Source\StrategyGame\Public\Player</Filter>
+		</ClInclude >
+		<Filter Include="Source\StrategyGame\Public\UI">
+			<UniqueIdentifier>{9FAE3C79-A678-4701-91CB-369439ECA960}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Source\StrategyGame\Public\UI\StrategyHUD.h">
+			<Filter>Source\StrategyGame\Public\UI</Filter>
+		</ClInclude >
+		<Filter Include="Source\StrategyGame\Resources">
+			<UniqueIdentifier>{47950D06-3528-4689-AFDD-FF5A4A0DD967}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Source\StrategyGame\Resources\Windows">
+			<UniqueIdentifier>{55EF12F5-9AE0-4105-B05C-CD1DF48A80C8}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\StrategyGame\Resources\Windows\StrategyGame.ico">
+			<Filter>Source\StrategyGame\Resources\Windows</Filter>
+		</None >
+		<ResourceCompile Include="..\..\Source\StrategyGame\Resources\Windows\StrategyGame.rc">
+			<Filter>Source\StrategyGame\Resources\Windows</Filter>
+		</ResourceCompile >
+		<Filter Include="Source\StrategyGameLoadingScreen">
+			<UniqueIdentifier>{E69F455E-D6D4-47F2-97BF-B997BDDFCE3C}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\StrategyGameLoadingScreen\StrategyGameLoadingScreen.Build.cs">
+			<Filter>Source\StrategyGameLoadingScreen</Filter>
+		</None >
+		<Filter Include="Source\StrategyGameLoadingScreen\Private">
+			<UniqueIdentifier>{F352E95C-313F-40E1-8AA9-B3A72B999022}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\StrategyGameLoadingScreen\Private\StrategyGameLoadingScreen.cpp">
+			<Filter>Source\StrategyGameLoadingScreen\Private</Filter>
+		</ClCompile >
+		<Filter Include="Source\StrategyGameLoadingScreen\Public">
+			<UniqueIdentifier>{ED07EFFC-410E-475D-ADB4-F1FCB5D1A8FE}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Source\StrategyGameLoadingScreen\Public\StrategyGameLoadingScreen.h">
+			<Filter>Source\StrategyGameLoadingScreen\Public</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\TestPAL\TestPAL.Target.cs" />
+		<None Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\TestPAL\TestPAL.Build.cs" />
+		<Filter Include="Private">
+			<UniqueIdentifier>{FC96B1D2-6090-42B5-B77C-A9F3E5FB9173}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\TestPAL\Private\Main.cpp">
+			<Filter>Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\TestPAL\Private\Parent.cpp">
+			<Filter>Private</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\TestPAL\Private\Parent.h">
+			<Filter>Private</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\TestPAL\Private\PrivatePCH.h">
+			<Filter>Private</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\TestPAL\Private\TestDirectoryWatcher.cpp">
+			<Filter>Private</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\TestPAL\Private\TestDirectoryWatcher.h">
+			<Filter>Private</Filter>
+		</ClInclude >
+		<Filter Include="Private\Linux">
+			<UniqueIdentifier>{7EBA6839-059D-4E04-B5DD-EDD1421E7575}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\TestPAL\Private\Linux\OffscreenGL.cpp">
+			<Filter>Private\Linux</Filter>
+		</ClCompile >
+	</ItemGroup>
+</Project>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\CrossCompilerTool\CrossCompilerTool.Target.cs" />
+		<None Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\CrossCompilerTool\CrossCompilerTool.Build.cs" />
+		<Filter Include="Private">
+			<UniqueIdentifier>{E5073591-1C99-4C8E-8EB3-E24E0DD39896}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\CrossCompilerTool\Private\CrossCompilerTool.cpp">
+			<Filter>Private</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\CrossCompilerTool\Private\CrossCompilerTool.h">
+			<Filter>Private</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\..\UnrealEngine-release\Engine\Source\Programs\CrossCompilerTool\Private\CrossCompilerUtils.cpp">
+			<Filter>Private</Filter>
+		</ClCompile >
+	</ItemGroup>
+</Project>

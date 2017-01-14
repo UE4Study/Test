@@ -1,0 +1,10 @@
+{
+	"Changelist" : 3195953,
+	"CompatibleChangelist" : 0,
+	"BuildId" : "93a97726-cce1-4ad6-a97c-b31c031ced9a",
+	"Modules" : 
+	{
+		"StrategyGame" : "UE4Editor-StrategyGame.dll",
+		"StrategyGameLoadingScreen" : "UE4Editor-StrategyGameLoadingScreen.dll"
+	}
+}

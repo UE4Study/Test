@@ -1,0 +1,4 @@
+C:\Users\user\Desktop\거위\Test\StrategyGame\Source\StrategyGame\StrategyGame.Build.cs
+C:\Users\user\Desktop\거위\Test\StrategyGame\Source\StrategyGameLoadingScreen\StrategyGameLoadingScreen.Build.cs
+C:\Users\user\Desktop\거위\Test\StrategyGame\Source\StrategyGame.Target.cs
+C:\Users\user\Desktop\거위\Test\StrategyGame\Source\StrategyGameEditor.Target.cs
